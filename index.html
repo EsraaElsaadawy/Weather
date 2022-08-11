@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <img src="images/logo.png" alt="" width="30" height="24" class=" d-inline-block align-text-top">
+                <div class="logo">
+                    <h1 class="text-white fs-6">Weather</h1>
+                    <small class="text-white fs-6">tagline goes here</small>
+                </div>
+            </a>
+            <div class="navBarItem">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="text-decoration-none active text-info px-4 border border-info rounded-pill py-1" aria-current="page" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" text-white text-decoration-none px-4 navHover" href="">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" text-white text-decoration-none px-4 navHover" href="">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" text-white text-decoration-none px-4 navHover" href="">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" text-white text-decoration-none px-4 navHover" href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="vh-100">
+        <div class="container">
+            <form action="" class="headerForm form-control bg-transparent border-0 py-5">
+                <input class="findLocation" type="text" placeholder="Find your location..." id="find">
+                <button class="findButton">Find</button>
+            </form>
+        </div>
+        <div class="card-group container" id="current">
+
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="" class="footerForm m-5 border-0 d-flex">
+                        <input class="footerInput w-100 p-3" type="text" placeholder="Enter your email to subscribe...">
+                        <button class="footerButton p-2">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-3 offset-1 py-3">
+                    <div class="links m-5">
+                        <a href="" class="text-decoration-none p-1">
+                            <i class="fa-brands fa-facebook fs-5"></i>
+                        </a>
+                        <a href="" class="text-decoration-none p-1">
+                            <i class="fa-brands fa-twitter fs-5"></i>
+                        </a>
+                        <a href="" class="text-decoration-none p-1">
+                            <i class="fa-brands fa-google-plus fs-5"></i>
+                        </a>
+                        <a href="" class="text-decoration-none p-1">
+                            <i class="fa-brands fa-pinterest fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-white ps-5 pb-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
